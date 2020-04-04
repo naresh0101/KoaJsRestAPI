@@ -1,0 +1,78 @@
+{
+			"name": "Naresh kumar gautam",
+            "type": "admin",
+            "email": "nareshlms@trackier.com",
+            "owner": false,
+            "password" : "test@123#"
+}
+
+localleadCreate = {
+	"name":"naresh",
+	"email":"example@gmail.com",
+	"phone": "7065510968",
+	"skype":"live:68926289",
+	"city":"noida",
+	"position":"3",
+	"status":"active",
+	"score":7,
+	"country":"india",
+	"ip" : "29.89.00.99.0",
+	"birthday": "30/11/2001",
+	"source" : "scarper",
+	"linkedin" : "https://www.linkedin.com/98279e817"
+}
+
+server ={
+	"email": "naresh.kumar@trackier.com",
+	"password": "1234567",
+	"type": "sdr",
+	"status":"active",
+	"name" : "naresh kumar"
+	
+}
+
+setver = {
+	"email": "mukul@trackier.com",
+	"password": "1234567",
+	"type": "member",
+	"status":"active",
+	"name" : "mukul"
+}
+server = {
+	"email": "faizan@trackier.com",
+	"password": "1234567"
+}
+server = {
+	"email": "naresh@trackier.com",
+	"password": "1234567",
+}
+
+{
+	"company" : "Trackier",
+	"address" : "sector 16, noida (2010303)",
+	"country" : "India",
+	"signup_date" : "30/11/2019",
+	"demo_date" : "12/11/2019",
+	"website" : "http://www",
+	"email_domains" : "trackier",
+	"stage" : "top",
+	"first_payment" : "30$"
+}
+
+
+
+db.createUser({user:"cloudstuff",pwd:":LNk{yCr^e)CY5JC",roles:[{role:"userAdminAnyDatabase",db:"admin"}]})
+mongo -u cloudstuff -p :LNk{yCr^e)CY5JC 
+
+    mongod --port 27017 -u "cloudstuff" -p ":LNk{yCr^e)CY5JC" --
+
+
+db.createUser(
+  {
+    user: "cloudstuff",
+    pwd: "H87-ptDUszu%eyG2CBEeAW",
+    roles: [ { role: "readWrite", db: "LMS" } ]
+  }
+)
+
+mongo --port 27017 -u "cloudstuff" -p "H87-ptDUszu%eyG2CBEeAW" --authenticationDatabase "LMS"

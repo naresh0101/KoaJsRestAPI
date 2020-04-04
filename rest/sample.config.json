@@ -1,0 +1,44 @@
+{
+    "development": {
+        "port": 8001,
+        "mongodb": {
+            "db": "",
+            "user": "",
+            "pass": "",
+            "host": "",
+            "port": "",
+            "auth_source": ""
+        },
+        "sentry": "https://ad59bff53e764a16961a6231463f60a9@sentry.io/2033904",
+        "backend_url": "http://localhost:8001",
+        "frontend_url": "http://localhost:8002"
+    },
+    "staging": {
+        "port": 8005,
+        "mongodb": {
+            "db": "LMS",
+            "user": "cloudstuff",
+            "pass": "H87-ptDUszu%eyG2CBEeAW",
+            "host": "localhost",
+            "port": "27017",
+            "auth_source": "admin"
+        },
+        "sentry": "https://ad59bff53e764a16961a6231463f60a9@sentry.io/2033904",
+        "backend_url": "https://staglms.cloudstuff.tech/api",
+        "frontend_url": "https://staglms.cloudstuff.tech"
+    },
+    "production": {
+        "port": 8001,
+        "mongodb": {
+            "db": "",
+            "user": "",
+            "pass": "",
+            "host": "",
+            "port": "",
+            "auth_source": ""
+        },
+        "sentry": "https://ad59bff53e764a16961a6231463f60a9@sentry.io/2033904",
+        "backend_url": "https://lms.cloudstuff.tech/api",
+        "frontend_url": "https://lms.cloudstuff.tech"
+    }
+}

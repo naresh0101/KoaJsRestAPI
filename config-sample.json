@@ -1,0 +1,44 @@
+{
+    "development": {
+        "port": 8001,
+        "mongodb": {
+            "db": "",
+            "user": "",
+            "pass": "",
+            "host": "",
+            "port": "",
+            "auth_source": ""
+        },
+        "sentry": "",
+        "backend_url": "",
+        "frontend_url": ""
+    },
+    "staging": {
+        "port": 8005,
+        "mongodb": {
+            "db": "",
+            "user": "",
+            "pass": "",
+            "host": "",
+            "port": "",
+            "auth_source": ""
+        },
+        "sentry": "",
+        "backend_url": "",
+        "frontend_url": ""
+    },
+    "production": {
+        "port": 8001,
+        "mongodb": {
+            "db": "",
+            "user": "",
+            "pass": "",
+            "host": "",
+            "port": "",
+            "auth_source": ""
+        },
+        "sentry": "",
+        "backend_url": "",
+        "frontend_url": ""
+    }
+}
